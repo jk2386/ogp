@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_actual"
+            android:title="ACTUALITES" />
+        <item
+            android:id="@+id/nav_emission"
+            android:title="EMISSIONS" />
+        <item
+            android:id="@+id/nav_direct"
+            android:title="EN DIRECT" />
+
+        <item
+            android:id="@+id/nav_replay"
+            android:title="REPLAY" />
+    </group>
+</menu>
