@@ -4,7 +4,6 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
@@ -90,7 +89,7 @@ public class MainActivity extends BaseActivity {
     public void selectDrawerItem(MenuItem menuItem) {
         // Create a new fragment and specify the fragment to show based on nav item clicked
         Fragment fragment = null;
-        String mUrl = "";
+        String mUrl = "no";
         switch (menuItem.getItemId()) {
             case R.id.nav_actual:
                 mUrl = "http://www.cheriefmguinee.com/blog.php?type=rub24&langue=fr&app=y";
